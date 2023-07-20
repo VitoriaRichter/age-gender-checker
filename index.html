@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age & Gender Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>How Old Are You?</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of Birth:</p>
+            <input type="number" id="birthyear" name="birthyear" min="0">
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <p><input type="button" value="Check Here" onclick="check()"></p>            
+        </div>
+        <div id="result">
+            Fill in the data above to check the result!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
